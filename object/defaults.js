@@ -2,7 +2,7 @@ var copy = require("./copy")
 
 module.exports = function defaults (options, defaults) {
   if (!options) {
-    return defaults
+    return copy(defaults)
   }
 
   var obj = copy(options)
