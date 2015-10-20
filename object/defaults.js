@@ -1,7 +1,7 @@
-var merge = require("./merge")
+var copy = require("./copy")
 
 module.exports = function defaults (options, defaults) {
-  var obj = merge({}, defaults)
+  var obj = copy(defaults)
   if (!options) {
     return obj
   }
