@@ -1,6 +1,6 @@
 {
   "name": "matchbox-util",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Matchbox utilities",
   "main": "index.js",
   "scripts": {

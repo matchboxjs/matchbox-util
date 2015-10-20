@@ -1,7 +1,7 @@
 var object = module.exports = {}
 
 object.Descriptor = require("./Descriptor")
-object.define = new object.Descriptor()
+object.define = require("./define")
 object.for = require("./for")
 object.in = require("./in")
 object.filter = require("./filter")
